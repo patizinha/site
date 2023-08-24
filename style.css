@@ -1,9 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url(styles/header.css);
+:root {
+    --cor-de-fundo:#ed127f;
+    --cor-cabecalho: #FFFFFF;
+
 }
-
-.cabeçalho {
-    background-color: #8a2be2;
-
+body {
+    background-color: var(--cor-de-fundo);
+    margin: 0%;
+    padding: 0%;
+}
     
